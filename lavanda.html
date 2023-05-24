@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lavanda.css">
+    <title>"Лаванда"</title>
+</head>
+<body class="light-theme">
+<header>
+    <article>
+        <ul class="hr">
+            <li><a href="#flowers1">Букеты</a></li>
+            <li><a href="#flowers2">Композиии</a></li>
+            <li><a href="#flowers3">Цветы в коробках</a></li>
+            <li><a href="#flowers4">Корзины цветов</a></li>
+            <li><a href="">Помощь</a></li>
+            <li><a href="">О нас</a></li>
+        </ul>
+    </article>
+   <div class="toggle-box">     
+        <input type="checkbox" name="checkbox1" id="toggle-box-checkbox">     
+        <label for="toggle-box-checkbox" class="toggle-box-label-left"></label>     
+        <label for="toggle-box-checkbox" class="toggle-box-label"></label>     
+    </div>     
+    
+</header>
+    <nav class="number">
+        <div class="nav-dark"><img src="https://nau54.ru/kartinki/kupit_moreprodukti_nautilus.png" width="20" height="20"> Номер телефона - 8(928)-882-88-99 <br>
+             <img class="connection" src="https://static.tildacdn.com/tild6463-3437-4534-b339-393932353334/akar-icons_instagram.svg" width="25" height="25"> Инстаграм - @LAVANDA_MKP
+        </div>
+        
+    </nav>
+    <div class="block1">
+        <h1><img src="https://cdn1.flamp.ru/e17e27cb5046793cd7303c381f21ab63.png" height="400" width="400" alt="logo"></h1>
+    </div>
+    <br>
+<section class="block2-lightTheme">
+        <p class="dark">Цветы и подарки<br>
+    САМАЯ БОЛЬШАЯ студия в городе</p>
+    <br>
+    <br>
+    <div class="flowers1" id="flowers1">
+        <h3 class="h3-dark">Букеты</h3>
+        <section class="menu1">
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\IMG_9078.PNG" alt="букет" width="400">
+                    <div class="info">Пионы - 4000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <div>
+                        <button class="buy" type="submit" onClick="func_name()">Купить</button>
+                        <div id="mypopup" class="popup">
+                            <div class="popup-content">
+                                <div class="popup-header">
+                                    <button class="close">x</button>
+                                    <h2>Оформление заказа</h2>
+                                    <div class="popup-body">
+                                    <form action="file:///C:/Users/HOME/Desktop/lavanda.html?#top-page" method="get" class="order">
+                                    <label for="nomber">
+                                        <p class="nomber">Количество:</p>
+                                        <input type="number" class="nbr" id="nomber" min="1" max="10" value="1"></label>
+                                        <br>
+                                        <br>
+                                        <p class="Color">Цвет упаковочной бумаги или коробки:</p>
+                                    <label for="color1"><input type="radio" name="colors" id="color1"  value="white"> Белая
+                                        <input type="radio" name="colors" id="color2" value="pink"> Розовая
+                                        <input type="radio" name="colors" id="color3"  value="purple"> Фиолетовая
+                                    </label>
+                                    <br>
+                                    <br>
+                                     <label for="comment"><p class="comment">Дополнительная информация:</p>
+                                        <textarea type="text" class="newCom" id="comment" cols="30" rows="10" placeholder="Комментарий" maxlength="2000"></textarea>
+                                    </label>
+                                    <br>
+                                    </form>
+                                    <button type="submit" class="sbm">Купить</button>
+                                    <div class="ready"> 
+                                         <img src="https://cdn.icon-icons.com/icons2/1880/PNG/512/iconfinder-basket-4341280_120547.png" class="logo2" alt="Покупка" width="450">
+                                    <p class="text">Успешно!</p> 
+                                    </div>
+                                </div>
+                                </div>
+                            <div class="popup-footer"></div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\IMG_9079.PNG" alt="букет" width="400">
+                    <div class="info">Пионовидные розы - 5000 ₽</div>
+                        <span class="time">
+                            <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                        </span>
+                        <br>
+                        <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\IMG_9080.PNG" alt="букет" width="400">
+                <div class="info">Букет диантусов - 3500 ₽</div>
+                <span class="time">
+                    <time datetime="18-05-2023 time-dark">Четверг, 18 мая 2023</time>
+                </span>
+                <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>      
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\IMG_9083.PNG" alt="букет" width="400">
+                    <div class="info">Букет кремовых роз - 6500 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <span>
+                        <button class="buy">Купить</button>
+                    </span>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\IMG_9084.PNG" alt="букет" width="400">
+                    <div class="info">Хризантемы Момоко - 3000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <span>
+                        <button class="buy">Купить</button>
+                    </span>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\IMG_9085.PNG" alt="букет" width="400">
+                    <div class="info">Букет роз - 3000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <span>
+                        <button class="buy">Купить</button>
+                    </span>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\IMG_9086.PNG" alt="букет" width="400">
+                    <div class="info">Облако гипсофилы - 2500 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <span>
+                        <button class="buy">Купить</button>
+                    </span>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\IMG_9088.PNG" alt="букет" width="400">
+                    <div class="info">Букет нежных роз - 4000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <span>
+                        <button class="buy">Купить</button>
+                    </span>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\IMG_9089.PNG" alt="букет" width="400">
+                    <div class="info">Букет хризантем - 3000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <span>
+                        <button class="buy">Купить</button>
+                    </span>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\IMG_9090.PNG" alt="букет" width="400">
+                    <div class="info">Голубая гортензия - 4000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <span>
+                        <button class="buy">Купить</button>
+                    </span>
+            </div>
+        </section>
+    </div>
+    <br>
+    <br>
+    <div class="flowers2" id="flowers2">
+        <h3 class="h3-dark">Композиции</h3>
+        <section class="menu2">
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9091.PNG" alt="букет" width="400">
+                    <div class="info">Микс с хризантемой - 4500 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <span>
+                        <button class="buy">Купить</button>
+                    </span>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9092.PNG" alt="букет" width="400">
+                    <div class="info">Микс с хризантемой - 5000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <span>
+                        <button class="buy">Купить</button>
+                    </span>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9093.PNG" alt="букет" width="400">
+                    <div class="info">Пастельные оттенки - 4000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <span>
+                        <button class="buy">Купить</button>
+                    </span>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9094.PNG" alt="букет" width="400">
+                    <div class="info">Розовый рассвет - 3000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <span>
+                        <button class="buy">Купить</button>
+                    </span>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9095.PNG" alt="букет" width="400">
+                    <div class="info">Розовый вихрь - 5000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <span>
+                        <button class="buy">Купить</button>
+                    </span>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9097.PNG" alt="букет" width="400">
+                    <div class="info">Оазис - 4500 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <span>
+                        <button class="buy">Купить</button>
+                    </span>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9098.PNG" alt="букет" width="400">
+                    <div class="info">Весеннее небо - 3000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <span>
+                        <button class="buy">Купить</button>
+                    </span>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9099.PNG" alt="букет" width="400">
+                    <div class="info">Звездное небо - 6000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <span>
+                        <button class="buy">Купить</button>
+                    </span>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9101.PNG" alt="букет" width="400">
+                    <div class="info">Радужный дождь - 9000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <span>
+                        <button class="buy">Купить</button>
+                    </span>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9103.PNG" alt="букет" width="400">
+                    <div class="info">Нежное кружево - 7000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <span>
+                        <button class="buy">Купить</button>
+                    </span>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9102.PNG" alt="букет" width="400">
+                    <div class="info">Золотой ореол - 3500 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <span>
+                        <button class="buy">Купить</button>
+                    </span>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9104.PNG" alt="букет" width="400">
+                    <div class="info">Цветочный микс - 6000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <span>
+                        <button class="buy">Купить</button>
+                    </span>
+            </div>
+        </section>
+    </div>
+    <br>
+    <div class="flowers3" id="flowers3">
+        <h3 class="h3-dark">Цветы в коробках</h3>
+        <section class="menu3">
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9118.PNG" alt="букет" width="400">
+                <div class="info">Сад роз - 6000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9120.PNG" alt="букет" width="400">
+                <div class="info">Белые розы - 8000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9121.PNG" alt="букет" width="400">
+                <div class="info">Радость лета - 3000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9124.PNG" alt="букет" width="400">
+                <div class="info">Английский сад - 6000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9128.PNG" alt="букет" width="400">
+                <div class="info">Коробка тюльпанов - 3500 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9129.PNG" alt="букет" width="400">
+                <div class="info">Дива - 5000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9130.PNG" alt="букет" width="400">
+                <div class="info">Жемчужный рассвет - 2000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9131.PNG" alt="букет" width="400">
+                <div class="info">Орхидеи - 5000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9132.PNG" alt="букет" width="400">
+                <div class="info">Нежный Сонет - 10000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9133.PNG" alt="букет" width="400">
+                <div class="info">Летняя сказка - 4000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9134.PNG" alt="букет" width="400">
+                <div class="info">Пышные розы - 4000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9135.PNG" alt="букет" width="400">
+                <div class="info">Райские Цветы - 6000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9136.PNG" alt="букет" width="400">
+                <div class="info">Нежный Фламинго - 6000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9137.PNG" alt="букет" width="400">
+                <div class="info">Радуга - 2500 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\KIMG_9138.PNG" alt="букет" width="400">
+                <div class="info">Роскошный Букет - 10000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+        </section>
+    </div>
+    <br>
+    <div class="flowers4">
+        <h3 id="flowers4">Корзины цветов</h3>
+        <section class="menu4">
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\zIMG_9140.PNG" alt="букет" width="400">
+                <div class="info">Пионовидные розы - 7000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\zIMG_9142.PNG" alt="букет" width="400">
+                <div class="info">Подарок Весны - 5500 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\zIMG_9143.PNG" alt="букет" width="400">
+                <div class="info">Цветущий Виноград - 5500 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\zIMG_9145.PNG" alt="букет" width="400">
+                <div class="info">Белый Рассвет - 6000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\zIMG_9146.PNG" alt="букет" width="400">
+                <div class="info">Зимняя сказка - 4000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\zIMG_9147.PNG" alt="букет" width="400">
+                <div class="info">Бархатные Цветы - 7000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\zIMG_9149.PNG" alt="букет" width="400">
+                <div class="info">Феерия - 5000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\zIMG_9148.PNG" alt="букет" width="400">
+                <div class="info">Красная классика - 5000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\zIMG_9150.PNG" alt="букет" width="400">
+                <div class="info">Территория Цветов - 6000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\zIMG_9153.PNG" alt="букет" width="400">
+                <div class="info">Шелковый Букет - 6000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\zIMG_9154.PNG" alt="букет" width="400">
+                <div class="info">Королевский Букет - 6000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+            <div class="bouquet"><img src="c:\Users\HOME\Desktop\flowers\zIMG_9155.PNG" alt="букет" width="400">
+                <div class="info">Созвучие Цветов - 5000 ₽</div>
+                    <span class="time">
+                        <time datetime="18-05-2023">Четверг, 18 мая 2023</time>
+                    </span>
+                    <br>
+                    <button class="buy" type="submit" onClick="func_name()">Купить</button>
+            </div>
+        </section>
+    </div>
+<div class="ul2">
+    <ul class=""></ul>
+</div>
+<article>
+    <ul class="hr1">
+        <li><a href="#flowers1">Букеты</a></li>
+        <li><a href="#flowers2">Композиии</a></li>
+        <li><a href="#flowers3">Цветы в коробках</a></li>
+        <li><a href="#flowers4">Корзины цветов</a></li>
+        <li><a href="">Помощь</a></li>
+        <li><a href="">О нас</a></li>
+    </ul>
+</article>
+
+<div class="upbtn" style="transform: scale(1);"></div>
+
+<footer>
+   <div class="ps">P.S. Очень хочу попасть к вам на стажировку! ^^</div>
+</footer>
+<script src="C:\Users\HOME\Desktop\Button.js"></script>
+<script src="c:\Users\HOME\Desktop\Buy.js"></script>
+<script src="c:\Users\HOME\Desktop\Redy.js"></script>
+<script src="C:\Users\HOME\Desktop\Theme Btn.js"></script>
+</body>
+
